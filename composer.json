@@ -1,0 +1,33 @@
+{
+    "name": "layup/sdk",
+    "type": "sdk",
+    "description": "LayUp API SDK",
+    "keywords": ["sdk","layup"],
+    "homepage": "https://github.com/layup-technologies",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zander Rootman",
+            "email": "zander@layup.co.za",
+            "homepage": "https://layup.co.za",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Layup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Layup\\": "src/"
+        }
+    }
+}
